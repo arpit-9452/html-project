@@ -1,0 +1,329 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: rgb(239, 242, 245);
+    font-family: 'Roboto', sans-serif;
+}
+.left-area{
+    margin: 5px;
+    padding: 10px;
+    width: 90px;
+    height: 88px;
+    margin-top: 32px;
+    margin-left: 29px;
+}
+.vertical-nav{
+    width: 90px;
+    margin-left: 15px;
+}
+.vertical-nav ul li{
+    text-decoration: none;
+    padding: 25px;
+    list-style-type: none;
+    margin-left: -35px;  
+}
+.vertical-nav li{
+    font-size: 18px;
+    color: rgb(36, 36, 35);
+}
+.btn-1{
+    width: 85px;
+    height: 29px;
+    margin-left: 60px;
+    
+}
+.btn-1 button{
+    border-radius: 25px;
+    width: 95px;
+    height: 39px;
+    background-color: crimson;
+    color: #fff;
+    border-style: none;
+}
+.center-area{
+    width: 485px;
+    font-family: 'Oswald', sans-serif;
+    height: 160px;
+    margin-left: 280px;
+    margin-top: -530px;
+}
+.center-area h1{
+   margin: 20px;
+   line-height: 65px;
+   font-size: 65px;
+   font-family: 'Oswald', sans-serif;
+   word-spacing: 12px;
+}
+.local-paragrapgh{
+    width: 290px;
+    margin-left: 950px;
+    margin-top: -140px;
+}
+.local-paragrapgh p{
+    font-size: 16px;
+    line-height: 27px;
+    color: rgb(36, 36, 35);   
+}
+.card-1{
+    width: 205px;
+    height: 238px;
+    border-radius: 20px;
+    margin-left: 190px;
+    background-color: #fff;
+    margin-top: 110px;
+    box-shadow: 5px 5px 5px 5px rgb(206, 204, 204);
+}
+.card-1 img{
+    width: 170px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card-1 p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.card-2{
+    width: 205px;
+    height: 238px;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 420px;
+    background-color: #fff;
+    margin-top: -240px;
+    box-shadow: 5px 5px 5px 5px rgb(206, 204, 204);
+}
+.card-2 img{
+    width: 170px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card-2 p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.card-3{
+    width: 205px;
+    height: 238px;
+    border-radius: 20px;
+    margin-left: 650px;
+    background-color: #fff;
+    margin-top: -240px;
+    box-shadow: 5px 5px 5px 5px rgb(206, 204, 204);
+}
+.card-3 img{
+    width: 170px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card-3 p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.card-4{
+    width: 205px;
+    height: 238px;
+    border-radius: 20px;
+    margin-left: 880px;
+    background-color: #fff;
+    margin-top: -240px;
+    box-shadow: 5px 5px 5px 5px rgb(206, 204, 204);
+}
+.card-4 img{
+    width: 170px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card-4 p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.card-5{
+    width: 205px;
+    height: 238px;
+    border-radius: 20px;
+    margin-left: 1115px;
+    background-color: #fff;
+    margin-top: -240px;
+    box-shadow: 5px 5px 5px 5px rgb(206, 204, 204);
+}
+.card-5 img{
+    width: 170px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card-5 p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.line{
+    width: 90px;
+    margin-left: 945px;
+    margin-top: -336px;
+}
+.line hr{
+    width: 85px;
+    height: 1.5px;
+    background-color: red;
+}
+
+.icon-1{
+    width: 37px;
+    height: 37px;
+    display: none;
+}
+.icon-1 img{
+    width: 37px;
+    height: 37px;
+}
+.icon-2{
+    width: 37px;
+    height: 37px;
+    display: none;
+}
+.icon-2 img{
+    width: 37px;
+    height: 37px;
+}
+.lorem{
+    width: 60px;
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 414px) {
+    
+    
+    .icon-1{
+        display: block;
+        margin-top: 205px;
+        margin-left: 25px;
+        position: absolute;
+    }
+    .icon-2{
+        display: block;
+        margin-top: 232px;
+        margin-left: 25px;
+        position: relative;
+    }
+    .center-area{
+        display: block;
+        position: absolute;
+        margin-top: 410px;
+        width: 270px;
+        margin-left: 10px;
+        margin-right: 150px;
+    }
+    .center-area h1{
+        width: 380px;
+        font-size: 41px;
+        line-height: 56px;
+    }
+    .card-1{
+        width: 150px;
+        height: 190px;
+        margin-left: 35px;
+        margin-top: 600px;
+        position: absolute;
+    }
+    .card-1 img{
+        width: 120px;
+    }
+    .card-2{
+        display: block;
+        width: 150px;
+        height: 190px;
+        margin-left: 210px;
+        margin-top: 600px;
+        position: absolute;
+    }
+    .card-2 img{
+        width: 120px;
+    }
+    .card-3{
+        display: block;
+        width: 150px;
+        height: 190px;
+        margin-left: 35px;
+        margin-top: 808px;
+        position: absolute;
+    }
+    .card-3 img{
+        width: 120px;
+    }
+    .card-4{
+        display: block;
+        width: 150px;
+        height: 190px;
+        margin-left: 210px;
+        margin-top: 808px;
+        position: absolute;
+    }
+    .card-4 img{
+        width: 120px;
+    }
+    .local-paragrapgh{
+        height: 140px;
+        width: 368px;
+        margin-left: 30px;
+        position: absolute;
+        margin-top: 1000px;
+    }
+    .local-paragrapgh p{
+        font-size: 22px;
+    }
+    .lorem{
+        display: block;
+        position: absolute;
+        left: 148px;
+        top: -20px;
+        width: 106px;
+    }
+    .line{
+        display: block;
+        position: relative;
+        top: -10px;
+        left: auto;
+    }
+    .lorem p{
+        font-size: 35px;
+        font-weight: 550;
+    }
+    .icon-1{
+        display: block;
+        position: absolute;
+        top: -185px;
+    }
+    .icon-2{
+        display: block;
+        position: absolute;
+        top: -210px;
+        left: 299px;
+    }
+
+
+    .card-5{
+        display: none;
+    }
+    .left-area{
+        display: none;
+    }
+    .btn-1{
+        display: none;
+    }
+    .vertical-nav{
+        display: none;
+    }
+}
